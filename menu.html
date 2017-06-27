@@ -13,11 +13,24 @@
     margin-left:auto; 
     margin-right:auto;
     }
-    td {text-align: center} 
+    #pizza1, #pizza2 {text-align: center} 
     header
     {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
     th {font-size: x-large}
-    tr {background-color: skyblue}
+    #pizza1 tr, #pizza2 tr, #drinks tr {background-color: skyblue}
+    table {
+        width:50%;
+    }
+    a {background-color: white}
+    a:visited {
+    color: blue;
+    }
+    a:hover {
+    font-weight: bold;
+    }
+    a:active {
+    text-decoration-line: none;
+    }
     </style>
 </head>
 <hr> 
@@ -26,7 +39,7 @@
     <a href="menu.html">Menu</a>
     <a href="contactus.html">Contact Us</a>
     <hr><br/>
-    <center><table>
+    <center><table id="pizza1">
         <tr>
             <th>Classic Supreme</th>
             <th>Margarita</th>
@@ -41,7 +54,7 @@
         </tr>
     </table>
     <br/><br/>
-    <table>
+    <table id="pizza2">
         <tr>
              <th>Veggie</th>
              <th>4 Cheese</th>
@@ -55,7 +68,27 @@
             <td>Chicken, BBQ sauce, onion, <br>
             jalapeno</td>
         </tr>    
-    </table>    
+    </table><br>
+    <table id="drinks">
+        <tr>
+            <th colspan="2">Beverages</th>
+        </tr>
+        <tr>
+            <td>Root Beer</td>
+            <td>$3.00</td>
+        </tr>
+        <tr>
+            <td>Bottled Water</td>
+            <td>$1.25</td>
+        </tr>
+        <tr>
+            <td>Lemonade</td>
+            <td>$1.00</td>
+        </tr>
+        <tr>
+            <td>Iced Tea</td>
+            <td>$1.25</td>
+        </tr>
     </table>
 </body>
 <hr>
