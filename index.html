@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
     <header>
-      <link rel="stylesheet" 
+        <link rel="stylesheet" 
       type="text/css"
       href="restaurantStyles.css" />
       Patrick's Pizza
     </header>
 <head>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <style type="text/css">
-  header
-    {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
   body 
   {background-color: lightgray}
-  header {background-color: white}
-  footer {background-color: white}
+header {background-color: white}
+footer {background-color: white}
   a {background-color: white}
   a:visited {
     color: blue;
@@ -28,9 +29,15 @@
 </head>
 <hr> 
 <body>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="contactus.html">Contact Us</a> 
+  <div class="container">
+        <div class="jumbotron">
+            <p>We have a new location! The new restaurant is 444 Sauce Ave, St. Paul, MN 55403.</p>
+        </div>
+  <ul class= "nav nav-tabs">
+    <li><a href="index.html" span class="glyphicon glyphicon-home"></a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="contactus.html">Contact Us</a></li>
+  </ul> 
     <hr><br/>
     <div style="text-align: center">
     <img src="/home/patrick/Documents/Repos/restaurant/pizza.jpg">

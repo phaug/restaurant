@@ -6,34 +6,22 @@
       href="restaurantStyles.css" />
       Patrick's Pizza
     </header>
-<head>
-    <style type="text/css">
-    form {margin: auto; 
-    text-align: center
-    }
-    header
-    {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
-    form
-     {font-weight: bold}
-    footer
-    {font-weight: normal} 
-      a {background-color: white}
-    a:visited {
-    color: blue;
-    }
-     a:hover {
-    font-weight: bold;
-    }
-    a:active {
-    text-decoration-line: none;
-    }
-    </style>
-</head>
 <hr> 
+<head>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 <body>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="contactus.html">Contact Us</a>
+    <div class="container">
+        <div class="jumbotron">
+            <p>We have a new location! The new restaurant is 444 Sauce Ave, St. Paul, MN 55403.</p>
+        </div>
+    <ul class= "nav nav-tabs">
+        <li><a href="index.html" span class="glyphicon glyphicon-home"></a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
     <hr><br/>
         <form action="contactus.html" method="Post">
         Name: <input type="text" name+"myName" /><br/><br/>

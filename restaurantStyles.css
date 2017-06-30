@@ -1,4 +1,45 @@
-header{text-align: center ; font-size: xx-large}
+header{text-align: center ; font-size: xx-large;}
 
-footer{text-align: center ; font-size: xx-large}
+footer{text-align: center ; font-size: xx-large;}
 
+header
+    {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+#pizza1, #pizza2 {text-align: center;} 
+header
+{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+th {font-size: x-large; text-align: center;}
+#pizza1 tr, #pizza2 tr, #drinks tr {background-color: skyblue;}
+table {
+        width:70%; table-layout: center;
+    }
+a {background-color: white;}
+a:visited {
+    color: blue;
+    }
+a:hover {
+    font-weight: bold;
+    }
+a:active {
+    text-decoration-line: none;
+    }
+
+form {margin: auto; 
+    text-align: center
+    }
+header
+    {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+form
+     {font-weight: bold}
+footer
+    {font-weight: normal} 
+      a {background-color: white}
+a:visited {
+    color: blue;
+    }
+a:hover {
+    font-weight: bold;
+    }
+a:active {
+text-decoration-line: none;
+    }

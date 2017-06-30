@@ -6,90 +6,125 @@
       href="restaurantStyles.css" />       
       Patrick's Pizza
     </header>
+<hr>
 <head>
-    
-    <style type="text/css">
-    {
-    margin-left:auto; 
-    margin-right:auto;
-    }
-    #pizza1, #pizza2 {text-align: center} 
-    header
-    {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
-    th {font-size: x-large}
-    #pizza1 tr, #pizza2 tr, #drinks tr {background-color: skyblue}
-    table {
-        width:50%;
-    }
-    a {background-color: white}
-    a:visited {
-    color: blue;
-    }
-    a:hover {
-    font-weight: bold;
-    }
-    a:active {
-    text-decoration-line: none;
-    }
-    </style>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<hr> 
 <body>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="contactus.html">Contact Us</a>
+    <div class="container">
+        <div class="jumbotron">
+        <p>We have a new location! The new restaurant is 444 Sauce Ave, St. Paul, MN 55403.</p>
+        </div>
+    <ul class= "nav nav-tabs">
+        <li><a href="index.html" span class="glyphicon glyphicon-home"></a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
     <hr><br/>
-    <center><table id="pizza1">
+    <table class="table table-bordered" table id=pizza1>
         <tr>
-            <th>Classic Supreme</th>
-            <th>Margarita</th>
-            <th>The Meats</th>
+            <td class="field-label col-md-4">
+                <label>Classic Supreme</label>
+            </td>
+            <td class="col-md-4">
+                <label>Margarita</label>
+            </td>
+            <td class="col-md-4">
+                <label>The Meats</label>
+            </td>
         </tr>
         <tr>
-            <td>Sausage, pepperoni, mushrooms,<br>
-             onions, peppers</td>
-            <td>Cheese, tomato sauce, basil</td>
-            <td>Pepperoni, sausage, Canadian bacon,<br> 
-            bacon, beef</td>
+            <td class="field-label col-md-4">
+                <label>Sausage, pepperoni, mushrooms,<br>
+             onions, peppers</label>
+            </td>
+            <td class="col-md-4">
+                <label>Cheese, tomato sauce, basil</label>
+            </td>
+            <td class="col-md-4">
+                <label>Pepperoni, sausage, Canadian bacon,<br> 
+            bacon, beef</label>
+        </tr>
+    </table>
+    <br>
+    <table class="table table-bordered" table id=pizza2>
+        <tr>
+            <td class="field-label col-md-4">
+                <label>Veggie</label>
+            </td>
+            <td class="col-md-4">
+                <label>4 Cheese</label>
+            </td>
+            <td class="col-md-4">
+                <label>BBQ Chicken</label>
+            </td>
+        </tr>
+        <tr>
+            <td class="field-label col-md-4">
+                <label>Onions, peppers, mushrooms,<br> 
+            black olives, green olives</label>
+            </td>
+            <td class="col-md-4">
+                <label>Mozzarella, swiss, pepperjack,<br>
+             chedder</label>
+            </td>
+            <td class="col-md-4">
+                <label>Chicken, BBQ sauce, onion, <br>
+            jalapeno</label>
         </tr>
     </table>
     <br/><br/>
-    <table id="pizza2">
+    <table class="table table-bordered" table id="drinks">
         <tr>
-             <th>Veggie</th>
-             <th>4 Cheese</th>
-             <th>BBQ Chicken</th>
-        </tr>   
-        <tr>
-            <td>Onions, peppers, mushrooms,<br> 
-            black olives, green olives</td>
-            <td>Mozzarella, swiss, pepperjack,<br>
-             chedder</td>
-            <td>Chicken, BBQ sauce, onion, <br>
-            jalapeno</td>
-        </tr>    
-    </table><br>
-    <table id="drinks">
-        <tr>
-            <th colspan="2">Beverages</th>
+            <th class="field-label col-lg-12">
+                <label>Beverages</label>
+            </th>
         </tr>
         <tr>
-            <td>Root Beer</td>
-            <td>$3.00</td>
+            <td class="field-label col-md-9">
+                <label>Root Beer</label>
+            </td>
+            <td class="col-md-3">
+                <label>$3.00</label>
+            </td>
+        </tr>
+            <tr>
+            <td class="field-label col-md-9">
+                <label>Root Beer</label>
+            </td>
+            <td class="col-md-3">
+                <label>$3.00</label>
+            </td>
+        </tr>
+            <tr>
+            <td class="field-label col-md-9">
+                <label>Bottled Water</label>
+            </td>
+            <td class="col-md-3">
+                <label>$1.25</label>
+            </td>
         </tr>
         <tr>
-            <td>Bottled Water</td>
-            <td>$1.25</td>
+            <td class="field-label col-md-9">
+                <label>Lemonade</label>
+            </td>
+            <td class="col-md-3">
+                <label>$1.00</label>
+            </td>
         </tr>
         <tr>
-            <td>Lemonade</td>
-            <td>$1.00</td>
-        </tr>
-        <tr>
-            <td>Iced Tea</td>
-            <td>$1.25</td>
+            <td class="field-label col-md-9">
+                <label>Iced Tea</label>
+            </td>
+            <td class="col-md-3">
+                <label>$1.25</label>
+            </td>
         </tr>
     </table>
+    </table><br>
+    </center>
 </body>
 <hr>
 <footer>
