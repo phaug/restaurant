@@ -1,9 +1,16 @@
-header{text-align: center ; font-size: xx-large;}
+header {
+    text-align: center ; 
+    font-size: xx-large;
+}
 
-footer{text-align: center ; font-size: xx-large;}
+footer{
+    text-align: center; 
+    font-size: xx-large;
+}
 
-header
-    {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+header {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+}
 
 #pizza1, #pizza2 {text-align: center;} 
 header
@@ -27,8 +34,7 @@ a:active {
 form {margin: auto; 
     text-align: center
     }
-header
-    {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+
 form
      {font-weight: bold}
 footer
@@ -43,3 +49,18 @@ a:hover {
 a:active {
 text-decoration-line: none;
     }
+
+body 
+  {background-color: lightgray}
+
+footer {background-color: white}
+  a {background-color: white}
+  a:visited {
+    color: blue;
+    }
+  a:hover {
+    font-weight: bold;
+  }
+  a:active {
+    text-decoration-line: none;
+  }

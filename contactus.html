@@ -1,54 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <header>
-        <link rel="stylesheet" 
-      type="text/css"
-      href="restaurantStyles.css" />
-      Patrick's Pizza
-    </header>
-<hr> 
+<header>
+    <link rel="stylesheet" type="text/css" href="restaurantStyles.css" /> Patrick's Pizza
+</header>
+<hr>
+
 <head>
     <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
     <div class="container">
         <div class="jumbotron">
-            <p>We have a new location! The new restaurant is 444 Sauce Ave, St. Paul, MN 55403.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+
+                        <div class="carousel">
+
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <p>We have a new location! The new restaurant is 444 Sauce Ave, St. Paul, MN 55403.</p>
+                                        <div class="carousel-caption">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <p>We're rolling out our seasonal menu, with special options for this season.</p>
+                                        <div class="carousel-caption">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <p>The Drink of the Month is SG Special Brew.</p>
+                                        <div class="carousel-caption">
+                                        </div>
+                                    </div>
+                                    <noscript>Sorry, your browser has JavaScript Disabled. Best viewed if you enable JavaScript.</noscript>
+                                </div>
+                            </div>
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    <ul class= "nav nav-tabs">
-        <li><a href="index.html" span class="glyphicon glyphicon-home"></a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="contactus.html">Contact Us</a></li>
-    </ul>
-    <hr><br/>
+        <ul class="nav nav-tabs">
+            <li><a href="index2.html" span class="glyphicon glyphicon-home"></a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+        <hr><br/>
         <form action="contactus.html" method="Post">
-        Name: <input type="text" name+"myName" /><br/><br/>
-        Email: <input type="text" name+"myEmail" /><br/><br/>
-        Phone: <input type="text" name+"myPhone" /><br/><br/>
-        Reason for Inquiry: <select name="Reason"/>
+            Name: <input type="text" name+ "myName" /><br/><br/> Email: <input type="text" name+ "myEmail" /><br/><br/> Phone:
+            <input type="text" name+ "myPhone" /><br/><br/> Reason for Inquiry: <select name="Reason" />
             <option value="Catering">Catering</option>
             <option value="Private Party">Private Party</option>
             <option value="Feedback">Feedback</option>
             <option value="Other">Other</option>
-        </select><br/>
-        Additional Information: <textarea name="Additional Information"></textarea><br/><br/>
-        <br/><br/>
-        Have you been to the restaurant? <input type="radio" name="answer" value="No" checked/>No
-        <input type="radio" name="answer" value="Yes" />Yes<br/>
-        Best Days to contact you: <input type="checkbox" name="days" value="M"unchecked/>M
-        <input type="checkbox" name="days" value="T"unchecked/>T
-        <input type="checkbox" name="days" value="W"unchecked/>W
-        <input type="checkbox" name="days" value="Th"unchecked/>Th
-        <input type="checkbox" name="days" value="F"unchecked/>F<br/>
-        <input type="Submit" name="Send Request" value="Send Request"/><br/><br/>
+            </select><br/> Additional Information: <textarea name="Additional Information"></textarea><br/><br/>
+            <br/><br/> Have you been to the restaurant? <input type="radio" name="answer" value="No" checked/>No
+            <input type="radio" name="answer" value="Yes" />Yes<br/> Best Days to contact you: <input type="checkbox" name="days"
+                value="M" unchecked/>M
+            <input type="checkbox" name="days" value="T" unchecked/>T
+            <input type="checkbox" name="days" value="W" unchecked/>W
+            <input type="checkbox" name="days" value="Th" unchecked/>Th
+            <input type="checkbox" name="days" value="F" unchecked/>F<br/>
+            <input type="Submit" name="Send Request" value="Send Request" /><br/><br/>
 </body>
 <hr>
 <footer>
-    <link rel="stylesheet" 
-      type="text/css"
-      href="restaurantStyles.css" />
-      123 Pizza Street, Minneapolis, MN, 55421<br/><br/>651-555-5555
-      </footer>
-</html>       
+    <link rel="stylesheet" type="text/css" href="restaurantStyles.css" /> 123 Pizza Street, Minneapolis, MN, 55421<br/><br/>651-555-5555
+</footer>
+
+</html>
